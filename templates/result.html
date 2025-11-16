@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado - Super Resolución</title>
+</head>
+<body>
+    <h1>Resultado</h1>
+
+    <h3>Imagen original</h3>
+    <img src="{{ url_for('static', filename=original_path) }}" alt="Original" style="max-width: 400px;"><br>
+
+    <h3>Imagen mejorada</h3>
+    <img src="{{ url_for('static', filename=result_path) }}" alt="Mejorada" style="max-width: 400px;"><br><br>
+
+    <a href="{{ url_for('index') }}">← Volver y probar otra imagen</a>
+</body>
+</html>

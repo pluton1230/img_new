@@ -1,0 +1,13 @@
+Flask
+Pillow
+
+torch
+torchvision
+py-real-esrgan
+
+huggingface_hub==0.20.3
+tqdm
+requests
+opencv-python
+
+gunicorn
