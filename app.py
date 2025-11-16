@@ -142,4 +142,6 @@ def resultado():
 
 
 if __name__ == "__main__":
-    # Para corr
+    # Para correr en local y en Render (usa el puerto que Render indica)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
